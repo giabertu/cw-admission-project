@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Codeworks Assignment</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        </head>
+    <body>
+        <h1>Messaging App</h1>
+        <div style="height: 600px;position:relative;">
+        <div class="messages" id="messageBox" style="max-height:100%;overflow:auto;">
+            <p class="from-them">Hey instructors! This is Gianni, and here is my project submission!</p>
+            <p class="from-me">Great! Where did you take inspiration from?</p>
+            <p class="from-them margin-b_one">The CSS was mainly inspired by https://codepen.io/AllThingsSmitty/pen/jommGQ, but I tweaked it a little bit to make this div scrollable, and to add hours and minutes in every message.</p>
+            <p class="from-me">How will the computer respond to my messages?</p>
+            <p class="from-them">There are 4 functions in the script.js file that cycle, and therefore the computer will respond in different (simple) ways. Briefly:<br>1. Reverses your message<br>2. Converts your text to uppercase<br>3. Responds with the vowels included in your message <br>4. This one is a surprise (unless you already checked the source file)</p>
+        </div>
+        </div>
+        <div class="messages userInt">
+            <input type="text" id="inputField">
+            <button id="sendButton"><i class="fa fa-send" style="font-size:24px;"></i></button>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
